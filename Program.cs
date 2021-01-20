@@ -132,8 +132,7 @@ namespace cadastro_series
 		{
 			Console.WriteLine("Inserir nova série");
 
-			foreach (int i in Enum.GetValues(typeof(Genero)))
-			{
+			foreach (int i in Enum.GetValues(typeof(Genero))) {
 				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
 			}
 			Console.Write("Digite o gênero entre as opções acima: ");
