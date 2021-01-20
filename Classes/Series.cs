@@ -9,7 +9,7 @@ namespace cadastro_series
         private int Ano { get; set; }
 
         // Métodos
-        public Series(int id, Genero genero, string titulo, string descricao, tin ano)
+        public Series(int id, Genero genero, string titulo, string descricao, int ano)
         {
             this.ID = id;
             this.Genero = genero;
